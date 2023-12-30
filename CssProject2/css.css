@@ -1,0 +1,120 @@
+.adlogo{
+    display:flex;
+    justify-content: space-around;
+    background-color:black;
+    margin:0px;
+    
+}
+.Nav-items{
+    display:flex;
+  
+    
+}
+.Nav-items>Li,.Dropdown{
+    margin:32px 40px;
+    text-decoration: none;
+    color:white;
+    padding: 3px 5px 3px 5px;
+    background-color:black;
+}
+img{
+    height:300px;width:100%;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+li>a{
+    color:white;
+    padding:3px 5px 3px 5px;}
+
+.promoword>p{
+    font-size: 2em;
+    align-items: center;
+}
+.promoword{ 
+text-align: center;}
+.logo>img{
+    position:relative;
+    top:20%;
+    
+    max-height: 75px;
+    width: auto;
+    padding-right: 10px;
+}
+.logo>img:hover{transition: all 1.5s;
+	transform: scale(1.5);
+    cursor: pointer;
+}
+span{
+    font-size: 2em; 
+    color:brown;
+}
+.button{
+    cursor: pointer;
+    background-color:rgb(241, 137, 9);
+    font-size: 2em;
+    padding: 5px 20px;
+    border:1px rgb(39, 39, 38);
+    border-radius: 10px;
+    box-shadow: 0px 3px 2px rgb(95, 72, 72);
+    
+}
+.buttondiv
+{
+    display: flex;
+    justify-content: center;
+}
+.promo-content{
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+.info{display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: black;color:white;line-height: 30px;
+}
+.Dropdown{
+    border: 0px;
+
+}
+
+ .Dropdown:hover{
+    background-color: aqua;
+    color:black;
+    transition: 0.5s ease-in-out;
+	transform: scale(1.2);
+}
+li>a:hover{
+    background-color: aqua;
+    color:black;
+    transition: 0.5s ease-in-out;
+	transform: scale(1.2);
+    border-radius: 6px;
+}
+.lists{
+    border-radius: 15px;
+    border:1px solid rgb(12, 12, 12, 0.1);
+    background-color: rgb(238, 219, 159);
+    margin:5px;
+    padding-right: 10px;
+    line-height: 30px;
+    box-shadow: 3px 3px 3px 3px rgb(158, 134, 134);
+}
+section{
+    margin:5px;
+    background-color:rgb(233, 227, 220);
+    display:flex;
+    justify-content: space-around;
+}
+.lists:hover{
+    transition: all 1.5s;
+	transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: none;
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url(1.jpg);
+}
